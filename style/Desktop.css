@@ -1,0 +1,148 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%; }
+.col-8 {width: 66.66%; }
+.col-9 {width: 75%; }
+.col-10 {width: 83.33%; }
+.col-11 {width: 91.66%; }
+.col-12 {width: 100%; }
+
+/* Navbar satrt here */
+.nav-logo{
+    text-align: left;
+}
+.nav-heading h1{
+    margin-top: 15px;
+    text-align: right;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    margin-top: 23px;
+    background-color: transparent;
+}
+/* navbar end here*/
+
+ /*profile start here */
+ 
+    .profile .top-weater-icon{
+        position: absolute;
+        right: 60px;
+        top: 10px;
+        height: 120px;
+        width: 500px;
+        transition: transform  2s;
+        transition-timing-function: linear;
+      }
+    
+      .profile .top-weater-icon:hover{
+        transform: skew(-45deg);
+      }
+
+
+      
+.profile .bottom-weater-icon{
+    position: absolute;
+    padding-top: 20px;
+    left: 60px;
+    bottom: 10px;
+    height: 150px;
+    width: 500px;
+    transition: transform  2s;
+    transition-timing-function: linear;
+  }
+
+  .profile .bottom-weater-icon:hover{
+    transform: skew(45deg);
+  }
+ /* profile end here */
+
+
+ /* About me design start here*/
+
+ .h2-view-for-desktop{
+    color: black;
+ }
+ .h2-view-for-desktop:hover{
+    color: white;
+ }
+
+ .aboutme-image{
+    
+
+    display: block;
+    margin: 0 auto;
+
+    position: relative;
+    animation-name: img-anim;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes img-anim{
+      0%{
+        top:0px;
+        bottom: 0px;
+      }
+      50%{
+        top: 200px;
+        bottom:0px;
+      }
+      100%{
+        top:0px;
+        bottom:0px;
+      }
+}
+
+ /*About me design end here*/
+
+/* Profetional experience start here  */
+
+.proffetional-experience{
+  padding: 1% 3%;
+}
+/* Profetional experience end here  */
+
+/* achivment-contact start here */
+
+.contact{
+  /* padding-right: 50px; */
+}
+   
+.contact button{
+  width: 120px;
+}
+
+.contact-link{
+  position: relative;
+}
+.media-button{
+  position: absolute;
+  margin-top: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+/* achivement-contact end here */
+
+/* footer start here */
+.footer-menu a{
+  display: inline;
+  margin: 10px;
+
+}
+
+.footer-desc{
+  font-size: .80rem;
+}
+
+/* footer end  here */
